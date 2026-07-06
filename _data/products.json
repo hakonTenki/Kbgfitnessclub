@@ -1,0 +1,199 @@
+{
+  "products": [
+    {
+      "name": "Gavekort",
+      "category": "gavekort",
+      "desc": "Gi bort opplevelsen av KBG Fitness Club. Valgfritt beløp. Gyldig i 12 mnd fra utstedelse.",
+      "price": "Valgfritt beløp",
+      "image": "webshopmedia/gavekort.jpg"
+    },
+    {
+      "name": "Treningsmedlemskap gavekort",
+      "category": "gavekort",
+      "desc": "Gi bort et fullt treningsmedlemskap. Velg varighet. Gyldig i 12 mnd fra utstedelse.",
+      "image": "webshopmedia/C104A60F-FA85-4867-8450-13717858B98E.PNG",
+      "durations": [
+        {"label": "3 mnd", "price": "1 000 kr"},
+        {"label": "6 mnd", "price": "1 800 kr"},
+        {"label": "9 mnd", "price": "2 800 kr"}
+      ]
+    },
+    {
+      "name": "Isotonisk Sportsdrikk 500 ml – Blue Ice",
+      "category": "kosttilskudd",
+      "desc": "Frisk isotonisk sportsdrikk med elektrolytter. Perfekt før, under og etter trening.",
+      "price": "30 kr",
+      "image": "webshopmedia/070DB551-2F20-41BC-AD92-366882D1C7A5.PNG"
+    },
+    {
+      "name": "Kreatin Monohydrat 500 g",
+      "category": "kosttilskudd",
+      "desc": "100 % mikronisert kreatin fra Star Nutrition. Vegansk, kan brukes året rundt. Forbedrer styrke og utholdenhet.",
+      "price": "200 kr",
+      "image": "webshopmedia/SET609-2_Star_Nutrition_2_Creatine_Monohydrate_500g.webp"
+    },
+    {
+      "name": "Magtein Magnesium – Fokus & Søvn",
+      "category": "kosttilskudd",
+      "desc": "Avansert magnesium utviklet for å støtte hjernen. Bidrar til bedre søvnkvalitet, fokus og redusert stress.",
+      "price": "329 kr",
+      "image": "webshopmedia/4F573984-8564-4EA9-AE92-1FD8DB85EDA6.PNG"
+    },
+    {
+      "name": "Protein Concentrate Star Nutrition Whey-80",
+      "category": "kosttilskudd",
+      "desc": "Nord-Europas mest solgte protein. 25-28 g protein per porsjon. Forbedrer muskelvekst og restitusjon.",
+      "price": "399 kr",
+      "image": "webshopmedia/39C22B96-C001-4A31-B9AF-A148B60DE347.PNG"
+    },
+    {
+      "name": "Star Nutrition Ultimate Collagen Powder 400 g",
+      "category": "kosttilskudd",
+      "desc": "Høykvalitets kollagen for ledd, hud, hår og bindevev. Finnes i smakene Neutral og Lemonade.",
+      "price": "220 kr",
+      "image": "webshopmedia/536BFF3D-4588-4121-B991-6F3F11792C33.PNG"
+    },
+    {
+      "name": "Star Nutrition Ultimate PWO 275 g",
+      "category": "kosttilskudd",
+      "desc": "Pre-workout med koffein for økt energi og fokus. Ca. 22 serveringer per boks.",
+      "price": "229 kr",
+      "image": "webshopmedia/D1F46C46-8244-4563-8E9D-7331652A2F8F.PNG"
+    },
+    {
+      "name": "Ultimate Ashwagandha – Star Nutrition",
+      "category": "kosttilskudd",
+      "desc": "Reduserer stress, forbedrer søvn og støtter restitusjon etter trening. 120 kapsler.",
+      "price": "199 kr",
+      "image": "webshopmedia/EBD37022-A22B-4DDA-932F-B42FD1952D27.PNG"
+    },
+    {
+      "name": "Ultimate Creatine – Styrke & Prestasjon",
+      "category": "kosttilskudd",
+      "desc": "Øker styrke, eksplosivitet og muskelvekst. Praktisk kapsel, enkelt å bruke i hverdagen. 90 kapsler.",
+      "price": "199 kr",
+      "image": "webshopmedia/8767AE0C-605B-44FC-82CD-83E6CD7F712E.PNG"
+    },
+    {
+      "name": "Ultimate Electrolytes – Star Nutrition",
+      "category": "kosttilskudd",
+      "desc": "Opprettholder væskebalansen og kan redusere kramper. Perfekt før, under og etter trening.",
+      "price": "199 kr",
+      "image": "webshopmedia/D6BD9377-6102-4B16-8DE4-D6C57F0E392A.PNG"
+    },
+    {
+      "name": "Ultimate Magnesium – Star Nutrition",
+      "category": "kosttilskudd",
+      "desc": "Støtter muskel- og nervefunksjon, og bidrar til bedre restitusjon og søvn. 90 kapsler.",
+      "price": "199 kr",
+      "image": "webshopmedia/094CAA1B-33D3-4AE0-9EF3-D3530BDEA310.PNG"
+    },
+    {
+      "name": "Whey-100 Myseprotein 1 kg – Choklad",
+      "category": "kosttilskudd",
+      "desc": "100 % myseproteinisolat med svært høyt proteininnhold og lavt fett. Rask restitusjon og muskelvekst.",
+      "price": "499 kr",
+      "image": "webshopmedia/575R_star-nutrition_whey-100-chocolate.webp"
+    },
+    {
+      "name": "KBG Fitness Club Hettejakke – Limited Drop",
+      "category": "merch",
+      "desc": "Myk og slitesterk hettejakke med KBG-logo. Unisex, farge svart, størrelser S–XXL. Begrenset antall.",
+      "price": "399 kr",
+      "originalPrice": "599 kr",
+      "badge": "Salg",
+      "image": "webshopmedia/DFA082D8-0859-4CD6-AAC9-A0DC88DD0397.PNG"
+    },
+    {
+      "name": "KBG Fitness Club Treningshåndkle",
+      "category": "merch",
+      "desc": "Mykt og praktisk håndkle med KBG-logo. Perfekt til treningsapparater og benker.",
+      "price": "80 kr",
+      "image": "webshopmedia/F513B941-E51A-42AF-B753-7FE569030C72.PNG"
+    },
+    {
+      "name": "KBG Fitness Club T-skjorte – Original",
+      "category": "merch",
+      "desc": "Komfortabel trenings-T-skjorte med sporty snitt og lett materiale. KBG-logo på ryggen.",
+      "price": "250 kr",
+      "image": "webshopmedia/B643A5A4-1E07-481C-AF1F-C4350ECD61FA.PNG"
+    },
+    {
+      "name": "Iron Gym Wire Rope",
+      "category": "utstyr",
+      "desc": "Slitesterkt hoppetau med stålwire for effektiv kondisjonstrening. Perfekt til intervaller og oppvarming.",
+      "price": "159 kr",
+      "image": "webshopmedia/8097DB6E-37CB-486C-BDC2-1DFA97C21BFB.PNG"
+    },
+    {
+      "name": "Leather Lifting Straps",
+      "category": "utstyr",
+      "desc": "Lifting straps i slitesterkt lær for bedre grep i tunge øvelser. Perfekt til markløft, roing og pull-ups.",
+      "price": "249 kr",
+      "image": "webshopmedia/4D78F751-6500-4891-B4CE-3D8B03209975.PNG"
+    },
+    {
+      "name": "OMPU Speedrope Pro",
+      "category": "utstyr",
+      "desc": "Raskt og lett hoppetau for effektiv kondisjonstrening. Høy hastighet og jevn rotasjon.",
+      "price": "179 kr",
+      "image": "webshopmedia/6CD70FB3-7716-4241-A80C-CFE1070AE642.PNG"
+    },
+    {
+      "name": "Padded Lifting Straps – Black",
+      "category": "utstyr",
+      "desc": "Polstrede lifting straps for bedre grep og komfort under tunge løft. Behagelig selv på tunge sett.",
+      "price": "229 kr",
+      "image": "webshopmedia/D700195B-1532-4C9D-A061-1BA6E8332136.PNG"
+    },
+    {
+      "name": "SmartGrepp gripehylse",
+      "category": "utstyr",
+      "desc": "Gripehylse i naturgummi for stødigere grep, bedre komfort og mer hygienisk kontaktflate. Finnes i rød, blå og svart.",
+      "price": "249 kr",
+      "image": "webshopmedia/A4CC1255-FC08-44F4-8CC1-112D63346DF1.PNG"
+    },
+    {
+      "name": "Smartshake Lite – 800 ml",
+      "category": "utstyr",
+      "desc": "Enkel og praktisk shaker perfekt til proteinshakes. Lekkasjesikker og tåler daglig bruk.",
+      "price": "129 kr",
+      "image": "webshopmedia/B073386A-7779-4254-B0FB-BA067518C775.PNG"
+    },
+    {
+      "name": "Star Gear Fitness Band",
+      "category": "utstyr",
+      "desc": "Slitesterke treningsstrikker for styrke, oppvarming, mobilitet og rehabilitering. 7 varianter med ulik motstand.",
+      "price": "129–199 kr",
+      "image": "webshopmedia/IMG_5422.jpg"
+    },
+    {
+      "name": "Star Gear Lifting Straps",
+      "category": "utstyr",
+      "desc": "Solide treningsremmer for bedre grep i markløft, roing og tunge ryggøvelser.",
+      "price": "199 kr",
+      "image": "webshopmedia/D0DA9D73-75FE-48CF-A6D8-3B7AC3562D9A.PNG"
+    },
+    {
+      "name": "Star Gear Mini Bands – Treningsstrikk",
+      "category": "utstyr",
+      "desc": "Effektive mini-strikker til oppvarming, glute-trening og mobilitet. 6 varianter med ulik motstand.",
+      "price": "79–249 kr",
+      "image": "webshopmedia/7E5DCEB4-92C5-4958-9013-159E486927ED.PNG"
+    },
+    {
+      "name": "Star Gear Speed Rope",
+      "category": "utstyr",
+      "desc": "Lett og raskt hoppetau for kondisjonstrening, oppvarming og intervaller. Passer alle nivåer.",
+      "price": "149 kr",
+      "image": "webshopmedia/81DB1DB0-3407-4E99-8D0A-5F3CFD8D1FA8.PNG"
+    },
+    {
+      "name": "Star Nutrition Shaker 500 ml – White",
+      "category": "utstyr",
+      "desc": "Praktisk shaker med tett lokk og miksenett. Perfekt til protein, kreatin eller pre-workout.",
+      "price": "79 kr",
+      "image": "webshopmedia/5666C973-4812-4956-B79F-E516FDD8F01B.PNG"
+    }
+  ]
+}

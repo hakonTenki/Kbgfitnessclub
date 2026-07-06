@@ -1,0 +1,59 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: webshopmedia
+public_folder: webshopmedia
+
+locale: 'nb'
+
+collections:
+  - name: "butikk"
+    label: "Nettbutikk"
+    files:
+      - name: "produkter"
+        label: "Produkter"
+        file: "_data/products.json"
+        fields:
+          - label: "Produktliste"
+            name: "products"
+            widget: "list"
+            label_singular: "Produkt"
+            summary: "{{fields.name}} – {{fields.category}}"
+            fields:
+              - label: "Produktnavn"
+                name: "name"
+                widget: "string"
+              - label: "Kategori"
+                name: "category"
+                widget: "select"
+                options:
+                  - {label: "Gavekort", value: "gavekort"}
+                  - {label: "Kosttilskudd", value: "kosttilskudd"}
+                  - {label: "Merch", value: "merch"}
+                  - {label: "Treningsutstyr", value: "utstyr"}
+              - label: "Beskrivelse"
+                name: "desc"
+                widget: "text"
+              - label: "Pris (f.eks. «199 kr» eller «Valgfritt beløp»)"
+                name: "price"
+                widget: "string"
+                required: false
+              - label: "Bilde"
+                name: "image"
+                widget: "image"
+              - label: "Badge (valgfri – f.eks. «Salg» eller «Ny»)"
+                name: "badge"
+                widget: "string"
+                required: false
+              - label: "Opprinnelig pris (valgfri – kun ved salg, f.eks. «599 kr»)"
+                name: "originalPrice"
+                widget: "string"
+                required: false
+              - label: "Varigheter (kun for gavekort med fast pris per periode)"
+                name: "durations"
+                widget: "list"
+                required: false
+                fields:
+                  - {label: "Varighet", name: "label", widget: "string"}
+                  - {label: "Pris", name: "price", widget: "string"}
