@@ -134,6 +134,24 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
+// Netlify Identity widget — intercepts #invite_token and #recovery_token in the URL,
+// shows the set-password dialog, then redirects to /admin/ after a successful login.
+(function () {
+  var s = document.createElement('script');
+  s.src = 'https://identity.netlify.com/v1/netlify-identity-widget.js';
+  document.head.appendChild(s);
+  s.onload = function () {
+    if (!window.netlifyIdentity) return;
+    window.netlifyIdentity.on('init', function (user) {
+      if (!user) {
+        window.netlifyIdentity.on('login', function () {
+          document.location.href = '/admin/';
+        });
+      }
+    });
+  };
+})();
+
 // GA4 click tracking for tel: and mailto: links.
 // Delegated on document so it also catches links injected later (e.g. the footer above).
 document.addEventListener('click', e => {
