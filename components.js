@@ -81,8 +81,8 @@ const FOOTER_HTML = `
       </div>
       <p class="footer-address">Karsches gate 3<br />3611 Kongsberg</p>
       <p class="footer-address" style="margin-top:10px;font-size:0.85rem;line-height:1.8">
-        <a href="tel:+4741411231" style="color:rgba(255,255,255,0.6);transition:color 0.2s" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='rgba(255,255,255,0.6)'">+47 414 11 231</a><br />
-        <a href="tel:+4741622690" style="color:rgba(255,255,255,0.6);transition:color 0.2s" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='rgba(255,255,255,0.6)'">+47 416 22 690</a>
+        <a href="tel:+4741411231" style="color:rgba(255,255,255,0.6);transition:color 0.2s" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='rgba(255,255,255,0.6)'" data-info="phone1" data-info-href="phone1">+47 414 11 231</a><br />
+        <a href="tel:+4741622690" style="color:rgba(255,255,255,0.6);transition:color 0.2s" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='rgba(255,255,255,0.6)'" data-info="phone2" data-info-href="phone2">+47 416 22 690</a>
       </p>
     </div>
   </div>

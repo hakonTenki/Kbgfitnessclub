@@ -95,6 +95,21 @@ document.querySelectorAll('.faq-q').forEach(btn => {
   });
 });
 
+// ── DYNAMIC SITE INFO (priser, åpningstider, telefon) ────────────────────
+fetch('_data/info.json')
+  .then(r => r.json())
+  .then(info => {
+    document.querySelectorAll('[data-info]').forEach(el => {
+      const v = info[el.dataset.info];
+      if (v !== undefined) el.textContent = v;
+    });
+    document.querySelectorAll('[data-info-href]').forEach(el => {
+      const v = info[el.dataset.infoHref];
+      if (v !== undefined) el.href = 'tel:' + v.replace(/\s/g, '');
+    });
+  })
+  .catch(() => {});
+
 // ── HERO PARALLAX ────────────────────────────────
 window.addEventListener('scroll', () => {
   const heroBg = document.querySelector('.hero-bg');
