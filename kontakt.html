@@ -78,7 +78,11 @@
           </div>
         </div>
         <div class="kontakt-form-wrap">
-          <form class="kontakt-form" id="contactForm" action="https://formspree.io/f/xvzdlyjj" method="POST">
+          <form class="kontakt-form" id="contactForm" name="contact" method="POST" action="/kontakt.html" data-netlify="true" netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="contact" />
+            <p style="display:none">
+              <label>Ikke fyll ut hvis du er menneske: <input name="bot-field" /></label>
+            </p>
             <div class="form-row">
               <div class="form-group">
                 <label for="navn" data-i18n="kon.f-name">Navn</label>
@@ -103,8 +107,6 @@
               <label for="melding" data-i18n="kon.f-msg">Melding</label>
               <textarea id="melding" name="melding" rows="5" data-i18n-ph="kon.f-msg-ph" placeholder="Skriv din melding her..."></textarea>
             </div>
-            <input type="hidden" name="_subject" value="Ny melding fra KBG-nettsiden" />
-            <input type="text" name="_gotcha" style="display:none" />
             <button type="submit" class="btn btn-primary w-full btn-lg" id="submitBtn" data-i18n="kon.f-submit">Send melding</button>
             <div class="form-success" id="formSuccess" data-i18n="kon.f-success">✓ Takk! Vi tar kontakt snart.</div>
             <div class="form-error" id="formError" data-i18n="kon.f-error">Noe gikk galt. Prøv igjen eller ring oss.</div>

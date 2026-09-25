@@ -39,7 +39,7 @@ const observer = new IntersectionObserver(entries => {
 
 fadeEls.forEach(el => observer.observe(el));
 
-// ── CONTACT FORM (Formspree) ──────────────────────
+// ── CONTACT FORM (Netlify Forms) ──────────────────
 const contactForm = document.getElementById('contactForm');
 if (contactForm) {
   const successMsg = document.getElementById('formSuccess');
@@ -55,10 +55,10 @@ if (contactForm) {
     submitBtn.disabled = true;
 
     try {
-      const res = await fetch(contactForm.action, {
+      const res = await fetch('/', {
         method: 'POST',
-        body: new FormData(contactForm),
-        headers: { Accept: 'application/json' }
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams(new FormData(contactForm)).toString()
       });
 
       if (res.ok) {
